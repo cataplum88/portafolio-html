@@ -421,7 +421,7 @@ button {
 }
 
 
-.tabs__btn:active {
+.tabs__btn.active {
     border-radius: .375rem;
     background-color: #000000;
     color: #06c1d0;

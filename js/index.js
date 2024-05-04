@@ -13,10 +13,6 @@ headerButton.addEventListener('click', function () {
 })
 
 
-
-
-
-
 //Container Tabs index
 
 //Cuando hago click en tabs__btn,
@@ -35,17 +31,12 @@ tabsBtn.forEach(function (eachBtn, index) {
 
         tabsText.forEach(function (eachText, index) {
             tabsText[index].classList.remove('active')
-        })
-        tabsText[index].classList.add('active')
-
-        tabsBtn.forEach(function (eachBtn, index) {
             tabsBtn[index].classList.remove('active')
         })
-
+        
+        tabsText[index].classList.add('active')
         tabsBtn[index].classList.add('active')
+
     })
 })
-
-
-//texto inicial aparece por defecto, 
 
